@@ -37,7 +37,7 @@ const App = () => {
 
   const onInsertTodo = text => {
     if (text === "") {
-      return alert("입력하시오");
+      return alert("텍스트를 입력하시오");
     } else {
       const todo = {
         id: nextId,
